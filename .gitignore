@@ -1,0 +1,20 @@
+# MATLAB temporary files
+*.asv
+*.autosave
+
+# Simulink cache files
+*.slxc
+slprj/
+sccprj/
+
+# Code generation
+codegen/
+
+# Manual backup files (optional - if you want to ignore .original files)
+*.slx.original
+*.slx.bak
+*.slx~
+
+# OS files
+.DS_Store
+Thumbs.db
