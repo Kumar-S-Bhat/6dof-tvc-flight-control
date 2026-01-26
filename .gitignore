@@ -7,6 +7,9 @@
 slprj/
 sccprj/
 
+# Generated resources and temporary data
+/resources/
+
 # Code generation
 codegen/
 
