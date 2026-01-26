@@ -21,3 +21,4 @@ codegen/
 # OS files
 .DS_Store
 Thumbs.db
+/temporary_files/
