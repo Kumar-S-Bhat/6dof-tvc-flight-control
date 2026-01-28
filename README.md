@@ -23,9 +23,10 @@ The system successfully maintains trimmed flight and recovers from a rudder doub
 - **Response:** Controller drives angular rates (p, q, r) back to zero
 - **Visualization:** Real-time aircraft response in FlightGear
 
-[![Angular Rate Response](docs/angular_rate_response.png)](docs/FlightGear_demo.mp4)
+https://github.com/user-attachments/assets/23139aa0-0b89-4ee4-b4b3-df51ea923919
+
+![Angular Rate Response](docs/angular_rate_response.png)
 *Roll rate (p) and yaw rate (r) response to rudder doublet - system returns to trim*
-*Click image to play video (hosted in this repository)*
 
 ## 📊 System Architecture
 ```
