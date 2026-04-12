@@ -66,13 +66,13 @@ sim_params.duration = 30;                % s (simulation time)
 fprintf('Loading Aerodynamic Data')
 load_aero_data();
 
-%% Load Gain-Scheduled LQR Controller
-fprintf('\nLoading LQR gain ...\n');
-if exist('data/lqr_gain.mat', 'file')
-    load('data/lqr_gain.mat', 'controller');
-    fprintf('✓ LQR gain loaded \n')
+%% Load Discrete LQR Controller Gain
+fprintf('\nLoading Discrete LQR gain ...\n');
+if exist('data/dlqr_gain.mat', 'file')
+    load('data/dlqr_gain.mat', 'controller');
+    fprintf('✓ Discrete LQR gain loaded \n')
 else
-    error('LQR gain not found! Run generate_lqr_gain() first.');
+    error('Discrete LQR gain not found! Run generate_dlqr_gain() first.');
 end
 
 %% Initial Conditions (Trimmed straight and level flight)
